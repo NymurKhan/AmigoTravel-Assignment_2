@@ -638,6 +638,10 @@ footer hr{
 }
 
 .gallery {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 5px;
     width: 72%;
     margin-left: 220px;
     margin: 0 auto;
