@@ -1,0 +1,326 @@
+@media screen and (max-width: 576px) {
+    :root {
+        font-size: 80%;
+    }
+
+    header,
+    .explore,
+    .popular-tours,
+    .choose-us,
+    .newsletter,
+    .simply-lost,
+    .deals-discounts
+    .destinations {
+        margin: 0rem 1.25rem;
+    }
+
+    .font125 {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+
+    .font15 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .font25 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .Website-title img {
+        max-width: 3rem;
+    }
+
+    .hamburger-menu {
+        display: flex;
+
+    }
+
+    #menu-toggle:checked~.nav-bar,
+    #menu-toggle:checked~.nav-bar ul,
+    .search-bar,
+    .popular-tours,
+    .cards-2,
+    .newsletter,
+    .simply-lost {
+        flex-direction: column;
+    }
+
+    #menu-toggle:checked~.nav-bar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 10px;
+    }
+
+    #menu-toggle:checked~.nav-bar ul {
+        margin-top: 3rem;
+        gap: .25rem;
+    }
+
+    #menu-toggle:checked~.nav-bar ul li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .explore {
+        margin-top: 1.11rem;
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .explore-content {
+        padding-top: 2rem;
+    }
+
+    .explore-content h1 {
+        font-size: 1.75rem;
+        width: 90%;
+    }
+
+    .explore-content p {
+        margin-top: 0.5rem;
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .search-bar {
+        margin-bottom: 2rem;
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .search-bar>*,
+    .search-bar>input[type="text"] {
+        width: 100%;
+    }
+
+    .popular-tours {
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+        max-width: 100%;
+    }
+
+    .tours-img>img {
+        max-width: 100%;
+    }
+
+    .choose-us {
+        margin-top: 1.5rem;
+        max-width: 100%;
+    }
+
+    .body-txt,
+    .body-txt>p {
+        max-width: 100%;
+    }
+
+    .cards-2 {
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .cards {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .cards p {
+        width: 100%;
+    }
+
+    .c3 {
+        margin-top: 1rem;
+    }
+
+    .deals-discounts {
+        margin-top: 1.5rem;
+        max-width: 100%;
+    }
+
+    .deals-discounts .heading>* {
+        margin-bottom: 1rem;
+    }
+
+    .deals-discounts .inner-card {
+        max-width: 90%;
+        padding: 1.5rem;
+        height: fit-content;
+        margin: 11.4rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    .outer-card {
+        width: 100%;
+    }
+
+
+    .simply-lost {
+        margin-top: 1.5rem;
+        max-width: 100%;
+        gap: 1.5rem;
+    }
+
+    .simply-lost>.text-section>* {
+        margin-bottom: 1rem;
+    }
+
+    .simply-lost ul {
+        margin-left: 1rem;
+    }
+
+    .simply-lost ul li::marker {
+        color: #5A5A5D;
+    }
+
+    .simply-lost ul li {
+        margin-bottom: 1rem;
+
+    }
+
+    .simply-lost>.text-section>.txt {
+        width: 100%;
+    }
+
+    .simply-lost h4 {
+        padding: 4.38rem 1.8rem;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+    }
+
+    .simply-lost>.video-thumbnail,
+    .simply-lost>.video-thumbnail>img {
+        min-width: none;
+        max-width: 100%;
+        max-height: fit-content;
+    }
+
+    .newsletter {
+        margin-top: 1rem;
+        gap: 1rem;
+        max-width: 100%;
+    }
+
+    .subscription {
+        width: 100%;
+        padding: 1.5rem;
+        height: fit-content;
+    }
+
+    .subscription p {
+        margin-top: 0.5rem;
+    }
+
+    hr {
+        margin: 1rem 0;
+    }
+
+    .newsletter>.images {
+        max-width: 100%;
+    }
+
+    footer {
+        margin-top: 1.45rem;
+        padding: 2rem 2.75rem;
+    }
+
+    footer>p {
+        margin-top: 1.03rem;
+    }
+
+    footer hr {
+        margin: 1.25rem 0 0.5rem 0;
+        max-width: 100%;
+    }
+ 
+.destination {
+        margin-top: 5%;
+        width: 77%;
+        height: 1590px;
+        margin: 0 auto;
+
+    }
+
+    .destination .container .text {
+        margin-bottom: 5%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .destination .container .text h1 {
+        font-size: 1.25rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    .destination .container .img .content {
+        width: 100%;
+    }
+
+    .destination .container .img .content h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .destination .container .img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        height: 1600px;
+    }
+
+    .destination .container .img .maldi {
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+
+    .destination .container .img .indo {
+
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+
+    .destination .container .img .srila {
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+    }
+
+    .destination .container .img .north-am {
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+
+    .destination .container .img .kash {
+        grid-column: 1/span 1;
+        grid-row: 4/span 1;
+        background-size: 100%;
+    }
+
+    .destination .container .img .bangla {
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+    }
+
+    .destination .container .img .bandar {
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+    }
+
+
+
+
+
+
+
+
+     */
